@@ -1,0 +1,450 @@
+body{
+  zoom:0.8;
+}
+.navItems{
+    position: relative;
+    left:10%;
+    z-index: 1;
+}
+.navbarLogo{
+    width:30%;
+}
+.nav-link{
+    color:#617798 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+.nav-link:hover{
+    text-decoration: overline;
+    color: #007ef2 !important;
+}
+.bgtrans{
+    background-color: white;
+}
+
+
+.newsMainText{
+    position: relative;
+    top:20%;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+@media(max-width:768px){
+    .navbar-toggler{
+        margin-top: -35px;
+        position: relative;
+        top: -8px;
+        left: 292px;
+    }
+}
+
+
+/* footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#9ef7f0 !important;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:left;
+  margin-left:-20px;
+  margin-top:14px;
+}
+.makeRelative{
+    position: relative;
+    top:5px;
+}
+.makeRelative1{
+    position: relative;
+    top:10px;
+}
+.makeRelative2{
+    position: relative;
+    top:15px;
+}
+.makeRelative3{
+    position: relative;
+    top:20px;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#000000
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.footerIcons{
+    color:white;
+}
+.editFontFooter{
+    font-size:20px;
+}
+
+
+/* Inner services wrapper */
+.services-inner-wrapper .services-inner-img-wrapper {
+    margin-bottom: 30px;
+}
+
+.services-inner-wrapper .services-inner-img-wrapper img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-inner-wrapper .secondary-heading-black {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.services-inner-wrapper .secondary-heading-black.heading-big {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.services-inner-wrapper .secondary-heading-black.heading-small {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.services-inner-wrapper .secondary-para {
+    font-size: 17px;
+}
+
+.services-inner-wrapper .services-inner-list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.services-inner-wrapper .services-inner-list li i {
+    color: #007ef2;
+}
+
+.services-inner-card-features {
+    border: solid 1px #eff2f6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.services-inner-card-features i {
+    font-size: 36px;
+    color: #007ef2;
+    margin-right: 15px;
+}
+
+.services-inner-card-features .services-inner-card-features-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4A4A4A;
+}
+
+.services-inner-accordion {
+    margin-top: 100px;
+}
+
+.services-inner-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.services-inner-accordion .accordion-item {
+    border: 0;
+    padding: 10px 0;
+}
+
+.services-inner-accordion .accordion-item .accordion-header .accordion-button {
+    position: relative;
+}
+
+.services-inner-accordion .accordion-item .accordion-header .accordion-button::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+    background-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+.services-inner-accordion .accordion-item .accordion-header .accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");    
+}
+
+.services-inner-accordion .accordion-item .accordion-header .accordion-button,
+.services-inner-accordion .accordion-item .accordion-header a {
+    background-color: transparent;
+    color: #007ef2;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+}
+
+.services-inner-accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    color: #25373f;
+}
+
+.services-inner-table-card-wrapper {
+    margin-top: 100px;
+}
+
+.services-inner-table-card {
+    border: solid 2px #666666;
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+
+.services-inner-table-card.active {
+    background-color: #666666;
+    transition: all ease 0.3s;
+}
+
+.services-inner-table-card.active:hover {
+    transform: scale(1.26);
+}
+
+.services-inner-table-card .services-inner-table-card-price {
+    color: #007ef2;
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.services-inner-table-card .inner-card-months {
+    display: inline-block;
+    border-bottom: solid 2px #464855;
+    margin: 30px 0;
+}
+
+.services-inner-table-card .services-inner-card-btn {
+    margin-top: 30px;
+}
+
+.services-inner-table-card .services-inner-card-btn .button {
+    width: 100%;
+}
+
+.services-right-inner-card-dark {
+    background-color: #181C22;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.services-right-inner-card-dark .secondary-heading-white {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.services-right-inner-card-dark .secondary-para {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.services-inner-menu-list .secondary-heading-black {
+    margin-bottom: 20px;
+}
+
+.services-inner-menu-list {
+    background-color: white;
+    box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.services-inner-menu-list li {
+    margin-bottom: 10px;
+}
+
+.services-inner-menu-list li a {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    padding: 17px 20px;
+    transition: all ease 0.3s;
+    text-decoration: none;
+}
+
+.services-inner-menu-list li a:hover, .services-inner-menu-list li a.active {
+    color: white;
+    background-color: #007ef2;
+    border-color: #007ef2;
+}
+/* Inner services wrapper */
+
+
+.contactBtn{
+    color: white;
+    background-color: #007ef2;
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 16px 30px;
+    transition: all ease 0.3s;
+    border-radius: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+/* gallery */
+.img-responsive{
+    width:100%;
+}
